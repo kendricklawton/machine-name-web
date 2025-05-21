@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <h1>Machine Name</h1>
+        <h1>MACHINENAME.DEV</h1>
         <Link href="mailto:khlawton@asu.edu">Contact</Link>
       </header>
       <div className={styles.main}>
-        <p>Machine Name is an applied research lab working on creating intelligent software. Our approach is to build software that utilize AI in ways that make sense. Our current project is TradebookLM - a comprehensive trading journal platform that helps traders document and analyze their trades across all markets.</p><p>TradebookLM is designed to be your complete trading companion,
+        <p>MACHINENAME.DEV is an applied research lab working on creating intelligent software. Our approach is to build software that utilize AI in ways that make sense. Our current project is TradebookLM - a comprehensive trading journal platform that helps traders document and analyze their trades across all markets.</p><p>TradebookLM is designed to be your complete trading companion,
           helping you track your performance,
           identify patterns,
           and make data-driven decisions. With powerful analytics and intuitive features,
