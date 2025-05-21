@@ -1,6 +1,6 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #374151;
 }
 
 html,
@@ -12,7 +12,6 @@ body {
 
 body {
   flex-direction: column;
-
   font-family: var(--font-geist-mono);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
