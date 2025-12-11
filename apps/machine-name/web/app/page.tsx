@@ -1,39 +1,8 @@
-// import Link from 'next/link';
-// import styles from './page.module.css';
-// import { Metadata } from "next";
-// import React from 'react';
-
-// export const metadata: Metadata = {
-//   title: "Machine Name - Building AI & Automation",
-//   description: "Machine Name is an applied research lab working on creating intelligent software.",
-// };
-
-// export default function Home() {
-//   return (
-//     <div className={styles.page}>
-//       <header className={styles.header}>
-//         <h1>MACHINENAME.DEV</h1>
-//         <Link href="mailto:info@machinename.dev">Contact</Link>
-//       </header>
-//       <div className={styles.main}>
-//         <p>MACHINENAME.DEV is an applied research lab working on creating intelligent software. Our approach is to build software that utilize AI in ways that make sense. Our current project is TradebookLM - a comprehensive trading journal platform that helps traders document and analyze their trades across all markets.</p><p>TradebookLM is designed to be your complete trading companion,
-//           helping you track your performance,
-//           identify patterns,
-//           and make data-driven decisions. With powerful analytics and intuitive features,
-//           it&apos;
-//           s the tool every serious trader needs to improve their trading strategy.</p>
-
-//       </div>
-//     </div>
-//   );
-// }
-// //
-
 "use client";
 
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Header } from "@machine-name/ui";
 
 const SOCIAL_LINKS = [
   { name: "GitHub", href: "https://github.com/kendricklawton" },
@@ -62,8 +31,9 @@ const PROJECT_DATA = [
       "Workos",
     ],
     liveLinks: [
-      { label: "wealthbooklm.com", href: "https://wealthbooklm.com" },
       { label: "betbooklm.com", href: "https://betbooklm.com" },
+      { label: "tradebooklm.com", href: "https://tradebooklm.com" },
+      { label: "wealthbooklm.com", href: "https://wealthbooklm.com" },
     ],
   },
 ];
@@ -128,14 +98,13 @@ function TechBadge({ name }: { name: string }) {
 export default function Home() {
   return (
     <div className="flex flex-col items-center pb-8 px-[4svw] font-(family-name:--font-geist-mono)">
-      <header className="flex flex-row items-center justify-between min-h-24 w-full max-w-2xl">
-        <h1 className="font-bold text-2xl">MACHINENAME.DEV</h1>
+      <Header logo={<h1 className="font-bold text-2xl">MACHINENAME.DEV</h1>}>
         <Link href="mailto:info@machinename.dev" className="hover:underline">
           Contact
         </Link>
-      </header>
+      </Header>
 
-      <main className="flex flex-col items-start justify-start max-w-2xl gap-8">
+      <main className="flex flex-col items-start justify-start max-w-2xl gap-8 w-full">
         <p className="leading-relaxed">
           MACHINENAME.DEV is an applied research lab working on creating
           intelligent software. Our approach is to build software that utilize
