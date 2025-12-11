@@ -8,7 +8,7 @@ const SOCIAL_LINKS = [
   { name: "GitHub", href: "https://github.com/kendricklawton" },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/kendrick-lawton-257684247/",
+    href: "https://www.linkedin.com/in/kendrick-lawton-ba4085374/",
   },
   { name: "Twitter", href: "https://x.com/KendrickLawton" },
 ];

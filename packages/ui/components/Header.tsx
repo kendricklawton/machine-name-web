@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
 import { cn } from "../lib/utils";
 
-interface HeaderProps {
+type HeaderProps = {
   logo: ReactNode;
   children?: ReactNode;
   className?: string;
-}
+};
 
 export function Header({ logo, children, className = "" }: HeaderProps) {
   return (
