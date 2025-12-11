@@ -1,4 +1,4 @@
-# Machine Name Infrastructure
+# Machine Name - Infrastructure & Web Application
 
 This repository contains the Infrastructure as Code (IaC) configuration for the **Machine Name** project, managing shared resources and individual application deployments using Terraform on Google Cloud Platform (GCP).
 
